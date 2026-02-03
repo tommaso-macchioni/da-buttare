@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="sd47e6f01a5a12372cfd6ad395576711cc93764af" entityID="https://test.politicheattive.lavoro.gov.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#sd47e6f01a5a12372cfd6ad395576711cc93764af">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>5XLTkvU/+doFVFVaMlrPzomDfL2whGz5PeUpB1HsB8U=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+mgXsMp5mDQMFXtMl7cxxebdfI27FP+E2RFiYJXIL5fE3Lix4ku0VaCOSnNZ4157/+NyfW6ng9cGj
+pE9ICUl1Om5JMx9cxszDZBeEhQn0zf+mrzs1MOFtK6s8NS9LgsT+vKwHLlkyfT5ApCSrW1cJnuZE
+Kp0ivoBet6LLwnycBFHEslMsEF2SdY7QiP/G1ghBDOxStfhKBRAmxqfMjslCIcbdeMO2rLPRRCrs
+Brsebf0onCTeT+WACwsOrYm8en0pbN/6D2B3FIbQDLUJtVZcXto9CTAGeXIFvegZqEgMbmSfUspC
+YzdC+rsw0HgL6nioksPguRZpQv2q8RJ3Ou6yLw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+wBsuXL+k06LlIE4sB3mHa9fHA0ui2TlwDuEtZ9ixXLtXt5aieGgl4YJPgahIZWb7yZd/yD8cdTVC
+gaE42r8OXE8lOXS1/HvvArDP657h238pDkuOncm587C8XVjQaMKN3YViNx+MLWFPYwGjoJHZr3L6
+EpooDSTKor44vmmxSNUZyJ+sV6l//yAFMlSl9/31enzaoNzvzzA8mqwth28V/2aGX1TDftHuY3gz
+DDDAQDb87OTYgofwAlOavg0T4FH3jgStYJGkng8HpWKaOrDNFUQ0JMb/2L0Ok16y6bVQKLk2P8zB
+dsLtoLREXV5K81EPmN3oZGCX/YYhl+T9QffwFQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIHJzCCBg+gAwIBAgIQBH7/UG2q/GwqPWN5xVhGUDANBgkqhkiG9w0BAQsFADBZ
+MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMTMwMQYDVQQDEypE
+aWdpQ2VydCBHbG9iYWwgRzIgVExTIFJTQSBTSEEyNTYgMjAyMCBDQTEwHhcNMjYw
+MTMwMDAwMDAwWhcNMjcwMTI3MjM1OTU5WjB/MQswCQYDVQQGEwJJVDENMAsGA1UE
+BxMEUm9tYTE3MDUGA1UEChMuTWluaXN0ZXJvIGRlbCBMYXZvcm8gZSBkZWxsZSBw
+b2xpdGljaGUgc29jaWFsaTEoMCYGA1UEAwwfKi5wb2xpdGljaGVhdHRpdmUubGF2
+b3JvLmdvdi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALOziRkv
+VcWaTvO3IhrYnE68F0VRmmaG1mWpihuAlw6JW+FM/dnOdQqSgZdkVYrtHorSkweS
+pQkt8AXgJZ62IIxjmo6NDt17UAmOVy9u4CVGIDaIUm0Fx3Dah02lM6KNxbO/YttJ
+rvwiVIhjo2nRS+l4/YoBby/4mwFS9ZGqmY/Pdvvc08euy4eue7gS0BBt+PIVcBA+
+vHmaw/cZ5B46cGES3H6hEtFAkB4i8eZ9YsvpuD83d3fdMsdgD9IZSFZXaj1FSJyx
+RuYqKzl4X2juXGn7/XAEWlGPghVDsUOKpeEAolQ4pnKHF441r1cvIDhPSac7Jp8D
+FiDMX0qqUAoILDUCAwEAAaOCA8MwggO/MB8GA1UdIwQYMBaAFHSFgMBmx9833s+9
+KTeqAx2+7c0XMB0GA1UdDgQWBBTX+5rC/BK/f+4te5wGyY8sKjM+UjBJBgNVHREE
+QjBAgh8qLnBvbGl0aWNoZWF0dGl2ZS5sYXZvcm8uZ292Lml0gh1wb2xpdGljaGVh
+dHRpdmUubGF2b3JvLmdvdi5pdDA+BgNVHSAENzA1MDMGBmeBDAECAjApMCcGCCsG
+AQUFBwIBFhtodHRwOi8vd3d3LmRpZ2ljZXJ0LmNvbS9DUFMwDgYDVR0PAQH/BAQD
+AgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjCBnwYDVR0fBIGXMIGU
+MEigRqBEhkJodHRwOi8vY3JsMy5kaWdpY2VydC5jb20vRGlnaUNlcnRHbG9iYWxH
+MlRMU1JTQVNIQTI1NjIwMjBDQTEtMS5jcmwwSKBGoESGQmh0dHA6Ly9jcmw0LmRp
+Z2ljZXJ0LmNvbS9EaWdpQ2VydEdsb2JhbEcyVExTUlNBU0hBMjU2MjAyMENBMS0x
+LmNybDCBhwYIKwYBBQUHAQEEezB5MCQGCCsGAQUFBzABhhhodHRwOi8vb2NzcC5k
+aWdpY2VydC5jb20wUQYIKwYBBQUHMAKGRWh0dHA6Ly9jYWNlcnRzLmRpZ2ljZXJ0
+LmNvbS9EaWdpQ2VydEdsb2JhbEcyVExTUlNBU0hBMjU2MjAyMENBMS0xLmNydDAM
+BgNVHRMBAf8EAjAAMIIBhwYKKwYBBAHWeQIEAgSCAXcEggFzAXEAdwBMY9yY5Zwd
+q4j2Hoo93q6Pq0SjN3tfm5TD+6Gc/MG+JgAAAZwOhNxIAAAEAwBIMEYCIQDsaQZm
+cJppI2yw6fI299ReBJsY6HFvvbBCVsmPmlYhaAIhANFBQliPF8WVxedOuoVaCfMB
+fhr9f4h06bH1CQNqkajSAHYAHJ9oLOn68EVpUPgbloqH3dsyENhM5siy44JSSsTP
+WZ8AAAGcDoTcDQAABAMARzBFAiEA2sGQD0t5muti0XhtdLTpeSB2uMQ2+ALYA2jZ
+oR7wRSgCIEhBr7x5J5cqJufSyOZSL7LGpqk1qnSANBZ9RFDN7YZdAH4AjspHC6ze
+avOiBrCkeoS3Rv4fxr+VPiXmm07kAkjzxugAAAGcDoTcigAIAAAFAAIXnW0EAwBH
+MEUCIGwdkj2ZM94TfZ+uBYdnRg2/tA+f0ndpoCVGQ/6+TJOCAiEAqFH9jlIuxjC1
+WNczPkKModEDL4TXHM3WUPwV+VYMEGMwDQYJKoZIhvcNAQELBQADggEBAK1A3ZF5
+uXrdBBIXUCRb1y/NT3rSWvPKjkBcxf7CLxcnpF6HOViMp5XJWqCuMPq7D5G97RZP
+UV3VnXG9Jp3AR3o0y0Y/h0ujgo3MMSMVc3nMpdT+E6npsqRdcFYQ8XIEHIDNX2KQ
+uZOSHeZnMeb41YyR3pMKV2MwOc4jwcl97cdiH9r5kjQ4rngn7l53uSLeVwGEag97
+2xiHnLZFGRdr33qLB/r0ludllD9iRSizTvz1nMgePRJT2eTQVbmRJoM+5+aAO6gi
+anqIMCjr4aMWG6LoNc/1cJ1FknGys7vZS4KD/+4lameLmhbUxhSlVRldNQi1fEG/
+50ZVbplpoqK6CZ0=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<md:KeyDescriptor use="signing">
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:X509Data>
+<ds:X509Certificate>MIIHJzCCBg+gAwIBAgIQBH7/UG2q/GwqPWN5xVhGUDANBgkqhkiG9w0BAQsFADBZ
+MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMTMwMQYDVQQDEypE
+aWdpQ2VydCBHbG9iYWwgRzIgVExTIFJTQSBTSEEyNTYgMjAyMCBDQTEwHhcNMjYw
+MTMwMDAwMDAwWhcNMjcwMTI3MjM1OTU5WjB/MQswCQYDVQQGEwJJVDENMAsGA1UE
+BxMEUm9tYTE3MDUGA1UEChMuTWluaXN0ZXJvIGRlbCBMYXZvcm8gZSBkZWxsZSBw
+b2xpdGljaGUgc29jaWFsaTEoMCYGA1UEAwwfKi5wb2xpdGljaGVhdHRpdmUubGF2
+b3JvLmdvdi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALOziRkv
+VcWaTvO3IhrYnE68F0VRmmaG1mWpihuAlw6JW+FM/dnOdQqSgZdkVYrtHorSkweS
+pQkt8AXgJZ62IIxjmo6NDt17UAmOVy9u4CVGIDaIUm0Fx3Dah02lM6KNxbO/YttJ
+rvwiVIhjo2nRS+l4/YoBby/4mwFS9ZGqmY/Pdvvc08euy4eue7gS0BBt+PIVcBA+
+vHmaw/cZ5B46cGES3H6hEtFAkB4i8eZ9YsvpuD83d3fdMsdgD9IZSFZXaj1FSJyx
+RuYqKzl4X2juXGn7/XAEWlGPghVDsUOKpeEAolQ4pnKHF441r1cvIDhPSac7Jp8D
+FiDMX0qqUAoILDUCAwEAAaOCA8MwggO/MB8GA1UdIwQYMBaAFHSFgMBmx9833s+9
+KTeqAx2+7c0XMB0GA1UdDgQWBBTX+5rC/BK/f+4te5wGyY8sKjM+UjBJBgNVHREE
+QjBAgh8qLnBvbGl0aWNoZWF0dGl2ZS5sYXZvcm8uZ292Lml0gh1wb2xpdGljaGVh
+dHRpdmUubGF2b3JvLmdvdi5pdDA+BgNVHSAENzA1MDMGBmeBDAECAjApMCcGCCsG
+AQUFBwIBFhtodHRwOi8vd3d3LmRpZ2ljZXJ0LmNvbS9DUFMwDgYDVR0PAQH/BAQD
+AgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjCBnwYDVR0fBIGXMIGU
+MEigRqBEhkJodHRwOi8vY3JsMy5kaWdpY2VydC5jb20vRGlnaUNlcnRHbG9iYWxH
+MlRMU1JTQVNIQTI1NjIwMjBDQTEtMS5jcmwwSKBGoESGQmh0dHA6Ly9jcmw0LmRp
+Z2ljZXJ0LmNvbS9EaWdpQ2VydEdsb2JhbEcyVExTUlNBU0hBMjU2MjAyMENBMS0x
+LmNybDCBhwYIKwYBBQUHAQEEezB5MCQGCCsGAQUFBzABhhhodHRwOi8vb2NzcC5k
+aWdpY2VydC5jb20wUQYIKwYBBQUHMAKGRWh0dHA6Ly9jYWNlcnRzLmRpZ2ljZXJ0
+LmNvbS9EaWdpQ2VydEdsb2JhbEcyVExTUlNBU0hBMjU2MjAyMENBMS0xLmNydDAM
+BgNVHRMBAf8EAjAAMIIBhwYKKwYBBAHWeQIEAgSCAXcEggFzAXEAdwBMY9yY5Zwd
+q4j2Hoo93q6Pq0SjN3tfm5TD+6Gc/MG+JgAAAZwOhNxIAAAEAwBIMEYCIQDsaQZm
+cJppI2yw6fI299ReBJsY6HFvvbBCVsmPmlYhaAIhANFBQliPF8WVxedOuoVaCfMB
+fhr9f4h06bH1CQNqkajSAHYAHJ9oLOn68EVpUPgbloqH3dsyENhM5siy44JSSsTP
+WZ8AAAGcDoTcDQAABAMARzBFAiEA2sGQD0t5muti0XhtdLTpeSB2uMQ2+ALYA2jZ
+oR7wRSgCIEhBr7x5J5cqJufSyOZSL7LGpqk1qnSANBZ9RFDN7YZdAH4AjspHC6ze
+avOiBrCkeoS3Rv4fxr+VPiXmm07kAkjzxugAAAGcDoTcigAIAAAFAAIXnW0EAwBH
+MEUCIGwdkj2ZM94TfZ+uBYdnRg2/tA+f0ndpoCVGQ/6+TJOCAiEAqFH9jlIuxjC1
+WNczPkKModEDL4TXHM3WUPwV+VYMEGMwDQYJKoZIhvcNAQELBQADggEBAK1A3ZF5
+uXrdBBIXUCRb1y/NT3rSWvPKjkBcxf7CLxcnpF6HOViMp5XJWqCuMPq7D5G97RZP
+UV3VnXG9Jp3AR3o0y0Y/h0ujgo3MMSMVc3nMpdT+E6npsqRdcFYQ8XIEHIDNX2KQ
+uZOSHeZnMeb41YyR3pMKV2MwOc4jwcl97cdiH9r5kjQ4rngn7l53uSLeVwGEag97
+2xiHnLZFGRdr33qLB/r0ludllD9iRSizTvz1nMgePRJT2eTQVbmRJoM+5+aAO6gi
+anqIMCjr4aMWG6LoNc/1cJ1FknGys7vZS4KD/+4lameLmhbUxhSlVRldNQi1fEG/
+50ZVbplpoqK6CZ0=</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+<SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://test.politicheattive.lavoro.gov.it/sso/SPSloPOST/metaAlias/politicheattive-sp" ResponseLocation="https://test.politicheattive.lavoro.gov.it/sso/SPSloPOST/metaAlias/politicheattive-sp"/>
+<NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://test.politicheattive.lavoro.gov.it/sso/Consumer/metaAlias/politicheattive-sp" index="0" isDefault="true"/>
+<md:AttributeConsumingService index="0">
+<md:ServiceName xml:lang="it">Portale ANPAL svil</md:ServiceName>
+<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+</md:AttributeConsumingService>
+</md:SPSSODescriptor>
+<md:Organization>
+<md:OrganizationName xml:lang="it">Anpal</md:OrganizationName>
+<md:OrganizationDisplayName xml:lang="it">ANPAL</md:OrganizationDisplayName>
+<md:OrganizationURL xml:lang="it">https://test.politicheattive.lavoro.gov.it/myanpal</md:OrganizationURL>
+</md:Organization>
+<md:ContactPerson contactType="other">
+<md:Extensions>
+<spid:IPACode>anlpa</spid:IPACode>
+<spid:Public/>
+</md:Extensions>
+<md:EmailAddress>settoreict@anpal.gov.it</md:EmailAddress>
+</md:ContactPerson>
+</md:EntityDescriptor>
